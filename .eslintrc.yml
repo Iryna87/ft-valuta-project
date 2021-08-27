@@ -4,8 +4,8 @@ env:
   
 extends:
   - airbnb-base
-  - "plugin:functional/external-recommended"
-  - "plugin:functional/recommended"
+ 
+plugin: react/recommended
 
 parser: babel-eslint
 
