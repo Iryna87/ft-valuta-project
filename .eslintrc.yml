@@ -2,7 +2,7 @@
 env:
   browser: true
   
-plugins: react/recommended
+plugins: ["react"]
   
 extends:
   - airbnb-base
