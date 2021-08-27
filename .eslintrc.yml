@@ -4,6 +4,7 @@ env:
   
 extends:
   - 'airbnb-base'
+  - 'babel-eslint'
 
 parserOptions:
   ecmaVersion: 2020
