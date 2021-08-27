@@ -22,5 +22,5 @@ jobs:
           CI: true
 
       - name: Run linter
-        run: make lint
+        run: npx eslint App.js
 
