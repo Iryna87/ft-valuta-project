@@ -20,7 +20,9 @@ export default {
   module: {
     rules: [
       {
-        test: /\.js$/i,
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        use: 'babel-loader',
       },
     ],
   },

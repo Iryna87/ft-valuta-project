@@ -1,5 +1,6 @@
 {
   "name": "ft-valuta-project",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "init.js",
@@ -18,7 +19,11 @@
   },
   "homepage": "https://github.com/Iryna87/ft-valuta-project#readme",
   "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
     "@reduxjs/toolkit": "^1.6.1",
+    "babel-loader": "^8.2.2",
     "bootstrap": "^5.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -31,9 +36,15 @@
     "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
     "redux": "^4.1.1",
+    "redux-actions": "^2.6.5",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/node": "^7.14.9",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  }
 }

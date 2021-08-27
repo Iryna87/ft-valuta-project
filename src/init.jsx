@@ -17,7 +17,7 @@ const store = configureStore({
   devTools: process.env.NODE_ENV !== 'production',
 });
 
-export default async () => (
+export default () => (
   <Provider store={store}>
     <App />
   </Provider>
