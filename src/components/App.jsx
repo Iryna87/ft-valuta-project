@@ -13,7 +13,7 @@ const App = () => (
     <div>
         <ul>
           <li>
-            <Link to="/currencies">Currencies</Link>
+            <Link to="/currencies">Current Currencies Course</Link>
           </li>
           <li>
             <Link to="/exchange">Exchange</Link>

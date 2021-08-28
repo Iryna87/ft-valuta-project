@@ -2,15 +2,12 @@
 env:
   browser: true
   
-plugins: ["react"]
-  
+plugins: ['react']
+
 extends:
   - airbnb-base
 
 parser: babel-eslint
-
-parserOptions:
-  ecmaVersion: 2020
 
 rules:
   import/extensions: 0
